@@ -1,0 +1,18 @@
+p{color: blue;}
+/*la couleur des paragraphes*/
+
+#img1{float: left;
+    width:900px;
+    height:500px;}
+
+#img2{float:left;
+    width:900;
+    height:500;}
+
+#img3{float:left;
+    width:900;
+    height:500;}
+
+#img4{float:left;
+    width:900;
+    height:500;}
