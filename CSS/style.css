@@ -1,16 +1,14 @@
-p{color: blue;
-    text-align: left;}
-/*la couleur des paragraphes*/
+body{background-color: #f0efeb;}
 
-img{width:360px;
-    height:480px;}
+h2{color:#5a4a4a;
+    margin-top: 93px;}
 
-aside{float: left;}
-
-section{margin:60px;
-    Border:1px solid black;
-    margin-right: 240px;
-    margin-left: 195px;}
+p{color: black;
+    text-align: justify;
+    width: 353px;
+    margin-left: 47px;
+    margin-right: 44px;}
+/*la couleur des paragraphes et la mise en forme*/
 
 ul{list-style-type: none;
     margin: 0;
@@ -28,8 +26,25 @@ ul li a{display: block;
     text-decoration: none;
     text-align: center;
     padding: 5px;
-    border: 1px solid;}
+    border: 1px solid;
+    margin: 0 30px;}
 
 
 ul li a:hover{background-color: #635756;
     color: white;}
+
+#nav{padding: 0; margin: 0;}
+
+/*mise ne forme de la barre de navigation*/    
+
+img{width:360px;
+    height:476px;}
+    
+aside{float: left;}
+    
+section{margin:60px;
+        Border:1px solid black;
+        margin-right: 240px;
+        margin-left: 195px;
+        background-color: #ffffff;}
+

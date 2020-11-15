@@ -10,7 +10,6 @@
 </head>
 <body>
     <header>
-        <h1>Reproduction de la barre de navigation</h1>
         <nav>
             <ul>
                 <li><a href="/Public/Notre révolution.html">NOTRE RÉVOLUTION</a></li>
@@ -25,6 +24,7 @@
 
     <main>
         <!--plutôt mettre le H1 dans le main que dans le header-->
+        <!--Dans cet exemple il n'y a pas de h1-->
         <!--implémentation du texte et des images / voir ce que ça donne et modifier en même temps-->
         <section>
             <aside>
@@ -45,13 +45,6 @@ En 1998, l'Audi TT entrait dans l’histoire du design automobile : une silhouet
 <br>20 ans et trois générations plus tard, la success-story ouvre un nouveau chapitre : l’Audi TT « 20 years ». 
 <br>Une série très limitée qui renoue avec les origines de ce Coupé élevé au rang d’icône. <br>
 N’attendez pas pour réserver la vôtre, seulement 50 exemplaires sont disponibles pour la France.<br>
-
-<strong>Sportivité sans effort</strong><br>
-
-Avec un design plus musclé et des éléments extérieurs spécifiques, l’Audi TT renforce son tempérament sportif par rapport à la génération précédente. <br>
-La direction progressive, qui réduit l’effort de braquage à mesure que vous tournez le volant, vous permet de garder une plus grande maniabilité dans les virages. <br>
-Grâce au Contrôle Electronique de Stabilisation (ESC), <br>
-l’Audi TT conserve sa stabilité même dans les situations de conduite difficiles grâce à une répartition précise du freinage sur chacune des roues.
                 </p> 
                 <!--intégration d'une image depuis le dossier mère-->
             </article>
@@ -129,12 +122,18 @@ l’Audi TT conserve sa stabilité même dans les situations de conduite diffici
 
     </main>
 
+    <nav aria-label="navigation bottom">
+        <ul class="pager">
+            <li><a href="#"title="Précédent">Précédent</a></li>
+            <li><a href="#"title="Suivant">Suivant</a></li>
+        </ul>
+    </nav>
 
     <footer>
         <!-- mise en place du footer. y revenir pour une meilleure harmonisation
         merci Perrin-->
-        <p>Wedrive - (c) 2013 Tous droits réservés</p>
-        <p>Design agence wype</p>
+        <p class="foot">Wedrive - (c) 2013 Tous droits réservés<br>
+        Design agence wype</p>
 
     </footer>
 
