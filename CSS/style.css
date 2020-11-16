@@ -1,3 +1,4 @@
+/*header + body*/
 section{margin:60px;
     Border:1px solid black;
     margin-right: 240px;
@@ -113,7 +114,7 @@ footer {
     border-top: 1px solid #bdbcba;
 }
 
-
+/*le temps d'un article*/
 article time{
   text-transform: uppercase;
   position: relative;
@@ -132,8 +133,8 @@ article time{
 }
   
 #logo img {
-    height: 130px;
-    width: 88px;
+    height: 210px;
+    width: 130px;
     }
 
 /*précédent et suivant*/
@@ -155,4 +156,11 @@ article time{
 }
   
 .pager a:hover {
-    background-color: #635756
+    background-color: #635756}
+
+
+.bas-de-page img{width: 20px;
+    height: 25px;
+    opacity: 40%;
+    display: inline-block;
+    ;}
